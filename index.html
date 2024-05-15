@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Static Website</title>
+    <title>VRP Products - Sathbala Mix</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f4f4f4;
         }
         header {
             background-color: #333;
@@ -17,18 +17,28 @@
             padding: 20px;
             text-align: center;
         }
-        nav {
-            background-color: #666;
-            padding: 10px;
-            text-align: center;
+        h1, h2, p {
+            margin: 0;
         }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        main {
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
             padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .product-image img {
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-description {
+            text-align: justify;
         }
         footer {
             background-color: #333;
@@ -42,31 +52,33 @@
     </style>
 </head>
 <body>
+
     <header>
-        <h1>VRP Products</h1>
+        <h1>Welcome to VRP Products</h1>
+        <h2>Your Source for Health and Strength</h2>
     </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
-    <main>
-        <h2>About Us</h2>
-        <p>This is a sample static website created with HTML and CSS.</p>
-        <h2>Our Services</h2>
-        <ul>
-            <li>Web Design</li>
-            <li>Graphic Design</li>
-            <li>SEO</li>
-        </ul>
-        <h2>Contact Us</h2>
-        <p>Email: info@example.com</p>
-        <p>Phone: 123-456-7890</p>
-    </main>
+
+    <div class="container">
+        <div class="product-image">
+            <img src="sathbala.jpg" alt="Sathbala - Strength and Health Mix">
+        </div>
+        <div class="product-description">
+            <h2>Sathbala - Strength and Health Mix</h2>
+            <p>Sathbala is a mixed multi-grain product in powder form, carefully crafted to provide you with essential nutrients for strength and vitality. Made from a blend of high-quality grains and seeds, Sathbala is your ideal companion for maintaining a healthy lifestyle.</p>
+            <p>Key Features:</p>
+            <ul>
+                <li>Rich in vitamins and minerals</li>
+                <li>Source of protein and fiber</li>
+                <li>Promotes overall health and well-being</li>
+                <li>Easy to prepare and consume</li>
+            </ul>
+            <p>Experience the goodness of Sathbala and embark on a journey towards a healthier you!</p>
+        </div>
+    </div>
+
     <footer>
-        &copy; 2024 My Static Website
+        <p>&copy; 2024 VRP Products. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
-
